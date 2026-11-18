@@ -1,0 +1,52 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# ==================== 本项目临时文件 ====================
+.tmp/
+.pdflib/
+.shot.png
+*.log
+debug.log
+
+# ==================== 大文件 / 模型权重 ====================
+# YOLO 权重、导出的模型（需要的话用 git add -f 强制加入）
+*.pt
+*.pth
+*.onnx
+*.engine
+*.bag
+
+# 如果不想把 docs 里的大 PDF（约 27MB）提交，取消下面两行注释
+# docs/*.pdf
+# *.pdf
+
+# ==================== ROS（以后把工作空间放进来时用） ====================
+build/
+devel/
+install/
+catkin_ws/
+.ros/
+
+# ==================== 操作系统 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 编辑器 / IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================== Office 临时文件 ====================
+~$*
